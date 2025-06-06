@@ -1,0 +1,23 @@
+@mixin offset-margin($margin, $value) {
+	margin-#{$margin}: $value !important;
+}
+
+@for $i from 1 through 100 {
+	@each $margin in top, left, bottom, right {
+		.margin-#{$margin}-#{$i * 4} {
+			@include offset-margin($margin, 0.25rem * $i);
+		}
+	}
+}
+
+@mixin offset-padding($padding, $value) {
+	padding-#{$padding}: $value !important;
+}
+
+@for $i from 1 through 100 {
+	@each $padding in top, left, bottom, right {
+		.padding-#{$padding}-#{$i * 4} {
+			@include offset-padding($padding, 0.25rem * $i);
+		}
+	}
+}

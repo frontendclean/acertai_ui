@@ -1,0 +1,44 @@
+.flex {
+	display: flex;
+
+	&.wrap {
+		flex-wrap: wrap;
+	}
+
+	&.hcenter {
+		justify-content: center;
+	}
+
+	&.vcenter {
+		align-items: center;
+	}
+
+	&.space-between {
+		justify-content: space-between;
+	}
+
+	&.direction-column {
+		flex-direction: column;
+	}
+
+	&.gap-8 {
+		gap: 0.5rem;
+	}
+
+	&.gap-16 {
+		gap: 1rem;
+	}
+
+	.width-50 {
+		width: 100%;
+		box-sizing: border-box;
+
+		@media (min-width: 768px) {
+			width: 50%;
+		}
+	}
+
+	.width-100 {
+		width: 100%;
+	}
+}

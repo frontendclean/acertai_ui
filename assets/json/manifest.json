@@ -1,0 +1,86 @@
+{
+  "author": "frontend_clean",
+  "simulations": [
+    {
+      "id": "aws-cloud-practitioner",
+      "category": "Fundamental",
+      "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+      "subtitle": "Teste seus conhecimentos antes da prova oficial",
+      "description_seo": "Este simulado foi criado com o apoio de inteligência artificial para ajudar você a se preparar para o exame AWS Certified Cloud Practitioner (CLF-C02). As questões foram desenvolvidas para refletir o estilo e o nível de dificuldade da prova oficial. Você pode praticar de duas formas: respondendo perguntas organizadas por tópicos (como computação em nuvem, segurança, faturamento e suporte), ou no formato completo da prova, com 65 questões aleatórias em um único teste. Ideal para revisar conteúdos, identificar pontos fracos e ganhar confiança antes do exame.",
+      "descriptions": [
+        "Este simulado foi desenvolvido para auxiliar na sua preparação para o exame AWS Certified Cloud Practitioner (CLF-C02).",
+        "As questões foram criadas com o apoio de inteligência artificial, com o objetivo de se aproximar ao máximo do estilo, nível de dificuldade e abordagem das questões reais da prova.",
+        "É uma ferramenta ideal para revisar os principais tópicos, identificar lacunas no seu conhecimento e ganhar confiança antes do exame oficial.",
+        "Você também pode praticar de duas formas: respondendo perguntas organizadas por tópicos (como computação em nuvem, segurança, faturamento e suporte), ou com 65 questões distribuídas conforme a proporção oficial do exame."
+      ],
+      "banner": "",
+      "icon": "",
+      "guide": "https://github.com/frontendclean/aws-practitioner-CLF-C02",
+      "author": "frontend_clean",
+      "options": [
+        {
+          "key": "oficial",
+          "value": "Completo 65 questões",
+          "params": [
+            {
+              "key": "Conceitos de nuvem",
+              "value": "15"
+            },
+            {
+              "key": "Segurança e conformidade",
+              "value": "20"
+            },
+            {
+              "key": "Tecnologia e serviços da nuvem",
+              "value": "22"
+            },
+            {
+              "key": "Cobrança, preços e suporte",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "key": "conceito_nuvem",
+          "value": "Conceitos de nuvem 20 questões",
+          "params": [
+            {
+              "key": "Conceitos de nuvem",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "key": "seguranca_conformidade",
+          "value": "Segurança e conformidade 20 questões",
+          "params": [
+            {
+              "key": "Segurança e conformidade",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "key": "tecnologia",
+          "value": "Tecnologia e serviços da nuvem 20 questões",
+          "params": [
+            {
+              "key": "Tecnologia e serviços da nuvem",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "key": "suporte",
+          "value": "Cobrança, preços e suporte 20 questões",
+          "params": [
+            {
+              "key": "Cobrança, preços e suporte",
+              "value": "20"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

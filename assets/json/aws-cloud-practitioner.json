@@ -1,0 +1,1305 @@
+{
+  "questions": [
+    {
+      "description": "Qual é um dos principais benefícios da AWS em relação à escalabilidade?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Permite contratar apenas servidores dedicados",
+        "Escalabilidade limitada a regiões",
+        "Permite aumentar e reduzir recursos sob demanda",
+        "Recursos são fixos após o provisionamento"
+      ],
+      "correct_answer": ["Permite aumentar e reduzir recursos sob demanda"],
+      "answer": []
+    },
+    {
+      "description": "O que é elasticidade na computação em nuvem?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "A capacidade de reduzir custos operacionais",
+        "A capacidade de otimizar licenças de software",
+        "A capacidade de ajustar automaticamente recursos com base na demanda",
+        "A capacidade de migrar dados entre servidores"
+      ],
+      "correct_answer": [
+        "A capacidade de ajustar automaticamente recursos com base na demanda"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual é o objetivo principal do modelo de responsabilidade compartilhada da AWS?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Delegar toda a segurança ao cliente",
+        "Permitir que o cliente ignore a conformidade",
+        "Dividir as responsabilidades entre AWS e cliente",
+        "Isentar a AWS de responsabilidade"
+      ],
+      "correct_answer": ["Dividir as responsabilidades entre AWS e cliente"],
+      "answer": []
+    },
+    {
+      "description": "Qual dos seguintes é um pilar do AWS Well-Architected Framework?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Elasticidade",
+        "Sustentabilidade",
+        "Tolerância a falhas",
+        "Acesso global"
+      ],
+      "correct_answer": ["Sustentabilidade"],
+      "answer": []
+    },
+    {
+      "description": "O que o pilar de excelência operacional do Well-Architected Framework incentiva?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Aumento da latência",
+        "Implantação manual",
+        "Monitoramento e melhoria contínua",
+        "Redução da segurança"
+      ],
+      "correct_answer": ["Monitoramento e melhoria contínua"],
+      "answer": []
+    },
+    {
+      "description": "Qual é um benefício direto da infraestrutura global da AWS?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Redução de energia elétrica",
+        "Eliminação de backups",
+        "Redução da latência e alcance global",
+        "Licenciamento de software gratuito"
+      ],
+      "correct_answer": ["Redução da latência e alcance global"],
+      "answer": []
+    },
+    {
+      "description": "Qual pilar do AWS Well-Architected Framework trata da proteção de informações e sistemas?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Otimização de custos",
+        "Segurança",
+        "Eficiência de desempenho",
+        "Sustentabilidade"
+      ],
+      "correct_answer": ["Segurança"],
+      "answer": []
+    },
+    {
+      "description": "O que é o AWS Cloud Adoption Framework (CAF)?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Uma ferramenta para prever faturamento",
+        "Um modelo para orientar a adoção da nuvem",
+        "Um repositório de imagens de AMI",
+        "Um sistema de auditoria de tráfego de rede"
+      ],
+      "correct_answer": ["Um modelo para orientar a adoção da nuvem"],
+      "answer": []
+    },
+    {
+      "description": "Qual estratégia de migração para a AWS envolve mover dados com dispositivos físicos?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Lift-and-shift",
+        "AWS CloudFormation",
+        "AWS Snowball",
+        "AWS Transfer Advisor"
+      ],
+      "correct_answer": ["AWS Snowball"],
+      "answer": []
+    },
+    {
+      "description": "Qual benefício econômico é obtido com o uso da nuvem AWS?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Contratação antecipada de recursos",
+        "Custos fixos permanentes",
+        "Conversão de custos fixos em variáveis",
+        "Pagamento antecipado de infraestrutura"
+      ],
+      "correct_answer": ["Conversão de custos fixos em variáveis"],
+      "answer": []
+    },
+    {
+      "description": "O que caracteriza um ambiente on-premises em comparação com a nuvem?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Custos variáveis",
+        "Baixa responsabilidade de manutenção",
+        "Necessidade de investimentos iniciais altos",
+        "Capacidade de escalar automaticamente"
+      ],
+      "correct_answer": ["Necessidade de investimentos iniciais altos"],
+      "answer": []
+    },
+    {
+      "description": "Qual das opções abaixo é um benefício da automação em ambientes de nuvem?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Aumento de erros humanos",
+        "Atraso na entrega de serviços",
+        "Redução do tempo de provisionamento",
+        "Necessidade de mais mão de obra"
+      ],
+      "correct_answer": ["Redução do tempo de provisionamento"],
+      "answer": []
+    },
+    {
+      "description": "O que o pilar de eficiência de desempenho do Well-Architected Framework orienta?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Eliminar redundâncias",
+        "Usar recursos de forma otimizada para o workload",
+        "Reduzir a segurança",
+        "Ignorar mudanças tecnológicas"
+      ],
+      "correct_answer": ["Usar recursos de forma otimizada para o workload"],
+      "answer": []
+    },
+    {
+      "description": "Qual opção descreve corretamente dimensionamento correto na AWS?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Superprovisionar recursos para segurança",
+        "Alocar recursos conforme o pico máximo previsto",
+        "Ajustar recursos de acordo com a necessidade",
+        "Manter a mesma infraestrutura independente da carga"
+      ],
+      "correct_answer": ["Ajustar recursos de acordo com a necessidade"],
+      "answer": []
+    },
+    {
+      "description": "A AWS permite que clientes usem suas próprias licenças em qual modelo?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Pay-as-you-go",
+        "Licenciamento automático",
+        "Bring Your Own License (BYOL)",
+        "Licença compartilhada Serviço"
+      ],
+      "correct_answer": ["Bring Your Own License (BYOL)"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta AWS ajuda a estimar os custos antes da migração?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "AWS Cost Explorer",
+        "AWS Pricing Calculator",
+        "AWS CloudTrail",
+        "AWS Budgets"
+      ],
+      "correct_answer": ["AWS Pricing Calculator"],
+      "answer": []
+    },
+    {
+      "description": "O que caracteriza uma estratégia de lift-and-shift?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Migrar grupos de usuário",
+        "Migrar a aplicação existente com alterações",
+        "Migrar a aplicação existente sem alterações",
+        "Criar novos bancos de dados em RDS"
+      ],
+      "correct_answer": ["Migrar a aplicação existente sem alterações"],
+      "answer": []
+    },
+    {
+      "description": "Qual dos seguintes NÃO é um benefício da nuvem AWS?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Alta disponibilidade",
+        "Pagamento conforme o uso",
+        "Gerenciamento físico do data center pelo cliente",
+        "Escalabilidade"
+      ],
+      "correct_answer": ["Gerenciamento físico do data center pelo cliente"],
+      "answer": []
+    },
+    {
+      "description": "Qual dos pilares do Well-Architected Framework foca em minimizar custos sem comprometer a performance?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Segurança",
+        "Sustentabilidade",
+        "Otimização de custos",
+        "Excelência operacional"
+      ],
+      "correct_answer": ["Otimização de custos"],
+      "answer": []
+    },
+    {
+      "description": "O que representa o alcance global da AWS?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "A possibilidade de enviar emails globalmente",
+        "A presença de regiões e zonas de disponibilidade em todo o mundo",
+        "Custo fixo global padronizado",
+        "Acesso a suporte técnico 24/7"
+      ],
+      "correct_answer": [
+        "A presença de regiões e zonas de disponibilidade em todo o mundo"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual dos seguintes é um resultado esperado com a migração baseada no AWS CAF?",
+      "category": "Conceitos de Nuvem",
+      "type": "radio",
+      "options": [
+        "Aumento do tempo de comercialização",
+        "Redução de receita",
+        "Melhoria no desempenho",
+        "Aumento da complexidade operacional"
+      ],
+      "correct_answer": ["Melhoria no desempenho"],
+      "answer": []
+    },
+    {
+      "description": "No modelo de responsabilidade compartilhada, o cliente é responsável por?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Segurança física do data center",
+        "Atualizações do hardware",
+        "Configurações de segurança dos recursos",
+        "Manutenção da infraestrutura global"
+      ],
+      "correct_answer": ["Configurações de segurança dos recursos"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço ajuda a proteger contra ameaças de segurança analisando logs e eventos?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": ["Amazon Inspector", "AWS GuardDuty", "AWS WAF", "Amazon S3"],
+      "correct_answer": ["AWS GuardDuty"],
+      "answer": []
+    },
+    {
+      "description": "O que é o AWS Artifact?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Serviço de criptografia",
+        "Serviço de gerenciamento de custos",
+        "Repositório de documentos de conformidade",
+        "Plataforma de backup"
+      ],
+      "correct_answer": ["Repositório de documentos de conformidade"],
+      "answer": []
+    },
+    {
+      "description": "Qual das seguintes opções é uma responsabilidade exclusiva da AWS?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Gerenciar regras de firewall no VPC",
+        "Atualizar o sistema operacional do EC2",
+        "Proteger o perímetro da infraestrutura física",
+        "Configurar criptografia de banco de dados"
+      ],
+      "correct_answer": ["Proteger o perímetro da infraestrutura física"],
+      "answer": []
+    },
+    {
+      "description": "O que é o princípio do menor privilégio?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Conceder acesso total a todos os usuários",
+        "Usar apenas o usuário root",
+        "Conceder apenas as permissões necessárias",
+        "Desativar MFA para evitar complicações"
+      ],
+      "correct_answer": ["Conceder apenas as permissões necessárias"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço gerencia senhas e chaves de forma segura?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Amazon CloudWatch",
+        "AWS Secrets Manager",
+        "Amazon EC2",
+        "AWS Config"
+      ],
+      "correct_answer": ["AWS Secrets Manager"],
+      "answer": []
+    },
+    {
+      "description": "Qual é a principal função do AWS IAM?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Monitoramento de custos",
+        "Gerenciamento de acesso e permissões",
+        "Processamento de mensagens",
+        "Gerenciamento de APIs"
+      ],
+      "correct_answer": ["Gerenciamento de acesso e permissões"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço fornece gerenciamento de identidade centralizado para múltiplas contas?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "AWS Shield",
+        "AWS Config",
+        "Centro de Identidade do IAM (IAM Identity Center)",
+        "Amazon Inspector"
+      ],
+      "correct_answer": ["Centro de Identidade do IAM (IAM Identity Center)"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta ajuda a auditar ações realizadas na conta AWS?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Amazon CloudWatch",
+        "AWS CloudTrail",
+        "AWS WAF",
+        "AWS Systems Manager"
+      ],
+      "correct_answer": ["AWS CloudTrail"],
+      "answer": []
+    },
+    {
+      "description": "Quais são as principais opções de compra para instâncias de computação na AWS?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Instâncias sob demanda, instâncias reservadas, instâncias spot, Savings Plans",
+        "Instâncias dedicadas, instâncias temporárias, instâncias limitadas",
+        "Instâncias públicas, instâncias privadas, instâncias spot",
+        "Instâncias exclusivas, instâncias públicas, instâncias gratuitas"
+      ],
+      "correct_answer": [
+        "Instâncias sob demanda, instâncias reservadas, instâncias spot, Savings Plans"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual das opções de compra de instâncias AWS oferece o menor custo, mas pode ser interrompida a qualquer momento?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Instâncias sob demanda",
+        "Instâncias reservadas",
+        "Instâncias spot",
+        "Savings Plans"
+      ],
+      "correct_answer": ["Instâncias spot"],
+      "answer": []
+    },
+    {
+      "description": "Qual modelo de preço da AWS oferece descontos em troca de um compromisso de uso por um período (por exemplo, 1 ou 3 anos)?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Instâncias sob demanda",
+        "Instâncias reservadas",
+        "Instâncias spot",
+        "Instâncias dedicadas"
+      ],
+      "correct_answer": ["Instâncias reservadas"],
+      "answer": []
+    },
+    {
+      "description": "O que são Savings Plans na AWS?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Um tipo de instância dedicada para empresas",
+        "Um modelo flexível de preços que oferece descontos em troca de uso comprometido de computação",
+        "Um serviço de armazenamento barato",
+        "Um programa de suporte técnico"
+      ],
+      "correct_answer": [
+        "Um modelo flexível de preços que oferece descontos em troca de uso comprometido de computação"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual das seguintes opções AWS permite reservar capacidade exclusiva para uso em hardware físico dedicado?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Instâncias spot",
+        "Hosts dedicados",
+        "Instâncias sob demanda",
+        "Instâncias reservadas"
+      ],
+      "correct_answer": ["Hosts dedicados"],
+      "answer": []
+    },
+    {
+      "description": "Como a transferência de dados entre regiões da AWS é cobrada?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Sempre gratuita",
+        "Cobrança para transferência de dados entre regiões e para fora da AWS",
+        "Cobrança apenas para dados dentro da mesma região",
+        "Transferência dentro da mesma região é cobrada, entre regiões é gratuita"
+      ],
+      "correct_answer": [
+        "Cobrança para transferência de dados entre regiões e para fora da AWS"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Quais tipos de armazenamento AWS são comuns para dados acessados com alta frequência e baixa latência?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Amazon S3 Standard e Amazon EFS",
+        "Amazon Glacier e Amazon S3 Standard",
+        "Amazon S3 Glacier Deep Archive e Amazon EBS Cold HDD",
+        "Amazon EBS Provisioned IOPS e Amazon S3 Standard"
+      ],
+      "correct_answer": ["Amazon S3 Standard e Amazon EFS"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço da AWS permite rastrear e analisar os custos detalhados e o uso dos recursos?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "AWS Budgets",
+        "AWS Cost Explorer",
+        "AWS Organizations",
+        "AWS CloudTrail"
+      ],
+      "correct_answer": ["AWS Cost Explorer"],
+      "answer": []
+    },
+    {
+      "description": "O que o AWS Budgets permite que você faça?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Criar alertas para quando os custos ou uso ultrapassarem limites definidos",
+        "Provisão automática de instâncias EC2",
+        "Gerenciar permissões do IAM",
+        "Visualizar logs do CloudWatch"
+      ],
+      "correct_answer": [
+        "Criar alertas para quando os custos ou uso ultrapassarem limites definidos"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Como o AWS Organizations pode ajudar na cobrança?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Consolidando faturamento e gerenciamento de contas em uma organização",
+        "Criando instâncias EC2 em múltiplas contas",
+        "Gerenciando backups entre contas",
+        "Provisão automática de usuários IAM"
+      ],
+      "correct_answer": [
+        "Consolidando faturamento e gerenciamento de contas em uma organização"
+      ],
+      "answer": []
+    },
+    {
+      "description": "O que são tags de alocação de custos na AWS?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Etiquetas usadas para classificar recursos e associar custos a projetos ou departamentos",
+        "Planos de suporte da AWS",
+        "Ferramentas para monitorar a saúde dos serviços AWS",
+        "Registros de auditoria"
+      ],
+      "correct_answer": [
+        "Etiquetas usadas para classificar recursos e associar custos a projetos ou departamentos"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Quais planos de suporte a AWS oferece para clientes que desejam suporte técnico básico e acesso a recursos da comunidade?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "AWS Developer Support",
+        "AWS Business Support",
+        "AWS Enterprise Support",
+        "AWS Basic Support"
+      ],
+      "correct_answer": ["AWS Basic Support"],
+      "answer": []
+    },
+    {
+      "description": "Qual plano AWS Support oferece respostas rápidas 24x7 e acesso a arquitetos de soluções?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "AWS Developer Support",
+        "AWS Business Support",
+        "AWS Enterprise Support",
+        "AWS Basic Support"
+      ],
+      "correct_answer": ["AWS Enterprise Support"],
+      "answer": []
+    },
+    {
+      "description": "O que é o AWS Trusted Advisor?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Um serviço que fornece recomendações para otimização de custos, segurança e desempenho",
+        "Um programa de treinamento para desenvolvedores",
+        "Um serviço para monitorar saúde da AWS",
+        "Um marketplace de software"
+      ],
+      "correct_answer": [
+        "Um serviço que fornece recomendações para otimização de custos, segurança e desempenho"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Para que serve o AWS Health Dashboard?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Monitorar a saúde e status dos serviços da AWS usados pelo cliente",
+        "Controlar o orçamento da AWS",
+        "Monitorar a saúde e status dos serviços da AWS usados pela aws",
+        "Configurar segurança do IAM"
+      ],
+      "correct_answer": [
+        "Monitorar a saúde e status dos serviços da AWS usados pelo cliente"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Onde você pode encontrar whitepapers, blogs, documentação e recomendações oficiais da AWS?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "AWS Management Console",
+        "AWS Documentation e AWS Knowledge Center",
+        "AWS Cost Explorer",
+        "AWS Marketplace"
+      ],
+      "correct_answer": ["AWS Documentation e AWS Knowledge Center"],
+      "answer": []
+    },
+    {
+      "description": "O que é o AWS Marketplace?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Uma loja online para comprar e vender softwares certificados pela AWS",
+        "Um serviço para transferir dados entre regiões",
+        "Um serviço de suporte da AWS",
+        "Um serviço de recomendações da AWS"
+      ],
+      "correct_answer": [
+        "Uma loja online para comprar e vender softwares certificados pela AWS"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço da AWS ajuda empresas a contratar arquitetos de soluções e serviços profissionais para implantação?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "AWS Professional Services",
+        "AWS Support Enterprise",
+        "AWS Marketplace",
+        "AWS Organizations"
+      ],
+      "correct_answer": ["AWS Professional Services"],
+      "answer": []
+    },
+    {
+      "description": "Qual é a função da equipe de confiança e segurança da AWS?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Denunciar abusos dos recursos da AWS e manter a segurança do ambiente",
+        "Criar contas para clientes",
+        "Prover suporte técnico básico",
+        "Analisar custos da AWS"
+      ],
+      "correct_answer": [
+        "Denunciar abusos dos recursos da AWS e manter a segurança do ambiente"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Em que situação você deve considerar usar instâncias reservadas flexíveis?",
+      "category": "Cobrança, preços e suporte",
+      "type": "radio",
+      "options": [
+        "Quando você tem um uso previsível e pode trocar família, tipo ou região de instância durante o período de reserva",
+        "Quando quer o menor preço para cargas de trabalho imprevisíveis",
+        "Quando precisa de capacidade dedicada física exclusiva",
+        "Quando deseja interromper a instância a qualquer momento para economizar custos"
+      ],
+      "correct_answer": [
+        "Quando você tem um uso previsível e pode trocar família, tipo ou região de instância durante o período de reserva"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual é uma forma de acessar a AWS programaticamente?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Console de Gerenciamento da AWS",
+        "SDKs da AWS",
+        "AWS Marketplace",
+        "AWS Support"
+      ],
+      "correct_answer": ["SDKs da AWS"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta da AWS permite a implantação da infraestrutura como código?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": ["AWS CloudFormation", "Amazon EC2", "AWS IAM", "AWS Lambda"],
+      "correct_answer": ["AWS CloudFormation"],
+      "answer": []
+    },
+    {
+      "description": "Qual modelo de implantação da nuvem AWS envolve uma combinação de nuvem pública e infraestrutura on-premises?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Nuvem pública",
+        "Nuvem híbrida",
+        "Nuvem privada",
+        "Nuvem comunitária"
+      ],
+      "correct_answer": ["Nuvem híbrida"],
+      "answer": []
+    },
+    {
+      "description": "O que é uma Região na AWS?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Um data center isolado",
+        "Um conjunto de Zonas de Disponibilidade geograficamente próximas",
+        "Um local de borda",
+        "Uma Zona de disponibilidade geograficamente"
+      ],
+      "correct_answer": [
+        "Um conjunto de Zonas de Disponibilidade geograficamente próximas"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Por que usar múltiplas Zonas de Disponibilidade?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Para reduzir custos",
+        "Para garantir alta disponibilidade",
+        "Para aumentar a latência",
+        "Para aumentar o armazenamento local"
+      ],
+      "correct_answer": ["Para garantir alta disponibilidade"],
+      "answer": []
+    },
+    {
+      "description": "Qual é o papel dos locais de borda (Edge Locations) na AWS?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Prover hospedagem para instâncias EC2",
+        "Armazenar dados de longo prazo",
+        "Distribuir conteúdo com baixa latência via Amazon CloudFront",
+        "Gerenciar redes privadas virtuais"
+      ],
+      "correct_answer": [
+        "Distribuir conteúdo com baixa latência via Amazon CloudFront"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço AWS oferece instâncias otimizadas para processamento de alta performance?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": ["Amazon RDS", "Amazon EC2", "AWS Lambda", "Amazon S3"],
+      "correct_answer": ["Amazon EC2"],
+      "answer": []
+    },
+    {
+      "description": "O que é AWS Fargate?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Serviço para executar contêineres sem gerenciar servidores",
+        "Serviço para executar contêineres com gerenciamento de servidores",
+        "Serviço de monitoramento",
+        "Serviço de armazenamento"
+      ],
+      "correct_answer": [
+        "Serviço para executar contêineres sem gerenciar servidores"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço permite execução de código serverless (sem servidor)?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "AWS Lambda",
+        "Amazon ECS",
+        "Amazon EC2",
+        "AWS Elastic Beanstalk"
+      ],
+      "correct_answer": ["AWS Lambda"],
+      "answer": []
+    },
+    {
+      "description": "O que o Auto Scaling permite?",
+      "category": "Segurança e conformidade",
+      "type": "radio",
+      "options": [
+        "Aumentar e diminuir automaticamente a capacidade de recursos computacionais",
+        "Criptografar dados automaticamente",
+        "Fazer backup de dados automaticamente",
+        "Reduzir custos automaticamente"
+      ],
+      "correct_answer": [
+        "Aumentar e diminuir automaticamente a capacidade de recursos computacionais"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta da AWS permite criar infraestrutura usando código declarativo?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "AWS CloudFormation",
+        "AWS CLI",
+        "AWS CodePipeline",
+        "AWS Management Console"
+      ],
+      "correct_answer": ["AWS CloudFormation"],
+      "answer": []
+    },
+    {
+      "description": "Qual é o principal benefício de usar IaC na AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Monitoramento de logs",
+        "Redução do uso de APIs",
+        "Automação e reprodutibilidade",
+        "Criação de VMs locais"
+      ],
+      "correct_answer": ["Automação e reprodutibilidade"],
+      "answer": []
+    },
+    {
+      "description": "Qual opção permite o acesso visual aos serviços da AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "AWS SDK",
+        "AWS CLI",
+        "AWS Management Console",
+        "AWS CloudShell"
+      ],
+      "correct_answer": ["AWS Management Console"],
+      "answer": []
+    },
+    {
+      "description": "Quando é mais apropriado usar operações únicas em vez de processos repetíveis?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Em ambientes de produção",
+        "Em tarefas manuais frequentes",
+        "Em configurações pontuais e não recorrentes",
+        "Em ambientes multi-region"
+      ],
+      "correct_answer": ["Em configurações pontuais e não recorrentes"],
+      "answer": []
+    },
+    {
+      "description": "O que é uma Zona de Disponibilidade (AZ)?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Um único data center isolados em uma região",
+        "Uma região inteira",
+        "Um ou mais data centers isolados em uma região",
+        "Um recurso do IAM"
+      ],
+      "correct_answer": ["Um ou mais data centers isolados em uma região"],
+      "answer": []
+    },
+    {
+      "description": "Por que a AWS utiliza múltiplas Zonas de Disponibilidade?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Para reduzir custos",
+        "Para permitir hospedagem gratuita",
+        "Para alcançar alta disponibilidade",
+        "Para melhorar o IAM"
+      ],
+      "correct_answer": ["Para alcançar alta disponibilidade"],
+      "answer": []
+    },
+    {
+      "description": "O que as AZs não compartilham?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Rede VPC",
+        "Pontos únicos de falha",
+        "Regras de IAM",
+        "Serviços globais"
+      ],
+      "correct_answer": ["Pontos únicos de falha"],
+      "answer": []
+    },
+    {
+      "description": "Qual situação exige o uso de múltiplas regiões?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Backup local",
+        "Alta disponibilidade local",
+        "Soberania de dados",
+        "Criação de instâncias EC2"
+      ],
+      "correct_answer": ["Soberania de dados"],
+      "answer": []
+    },
+    {
+      "description": "Qual é um benefício do uso de locais da borda?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Menor custo de armazenamento",
+        "Aumento na complexidade de rede",
+        "Latência reduzida para usuários finais",
+        "Uso exclusivo com EC2"
+      ],
+      "correct_answer": ["Latência reduzida para usuários finais"],
+      "answer": []
+    },
+    {
+      "description": "O que é um local da borda na AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Data center usado apenas para backups",
+        "Um recurso exclusivo do S3",
+        "Ponto de presença para conteúdo e cache",
+        "Uma zona de segurança"
+      ],
+      "correct_answer": ["Ponto de presença para conteúdo e cache"],
+      "answer": []
+    },
+    {
+      "description": "Qual tipo de instância EC2 é ideal para cargas com alto processamento?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["T3", "M5", "C5", "R5"],
+      "correct_answer": ["C5"],
+      "answer": []
+    },
+    {
+      "description": "Qual tipo de instância EC2 é ideal para aplicações que exigem alta capacidade de armazenamento?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["C5", "P4", "D3", "T2"],
+      "correct_answer": ["D3"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço gerencia contêineres sem necessidade de provisionar servidores?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon EC2",
+        "Amazon Fargate",
+        "AWS Lambda",
+        "AWS AppRunner"
+      ],
+      "correct_answer": ["Amazon Fargate"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço é ideal para executar funções com base em eventos sem servidor?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS EC2", "Amazon Aurora", "AWS Lambda", "AWS SQS"],
+      "correct_answer": ["AWS Lambda"],
+      "answer": []
+    },
+    {
+      "description": "O que o auto scaling proporciona?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Segurança",
+        "Elasticidade",
+        "Backups",
+        "Balanceamento manual"
+      ],
+      "correct_answer": ["Elasticidade"],
+      "answer": []
+    },
+    {
+      "description": "Qual é a finalidade dos balanceadores de carga (ELB)?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Armazenar objetos",
+        "Distribuir tráfego entre instâncias",
+        "Criar scripts",
+        "Balanceador de dados"
+      ],
+      "correct_answer": ["Distribuir tráfego entre instâncias"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço fornece banco de dados relacional gerenciado?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon DynamoDB", "Amazon RDS", "Amazon EC2", "AWS Lambda"],
+      "correct_answer": ["Amazon RDS"],
+      "answer": []
+    },
+    {
+      "description": "Qual banco de dados relacional é otimizado para performance e compatível com MySQL/PostgreSQL?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon Redshift",
+        "Amazon Aurora",
+        "DynamoDB",
+        "Amazon Athena"
+      ],
+      "correct_answer": ["Amazon Aurora"],
+      "answer": []
+    },
+    {
+      "description": "Qual é um banco de dados NoSQL da AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon Aurora",
+        "Amazon Redshift",
+        "Amazon DynamoDB",
+        "Amazon EFS"
+      ],
+      "correct_answer": ["Amazon DynamoDB"],
+      "answer": []
+    },
+    {
+      "description": "Qual banco de dados é baseado em memória para alto desempenho?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon Aurora",
+        "Amazon ElastiCache",
+        "Amazon S3",
+        "AWS Lambda"
+      ],
+      "correct_answer": ["Amazon ElastiCache"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço auxilia na migração de bancos de dados para a AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS CloudFormation", "AWS DMS", "AWS Glue", "Amazon EC2"],
+      "correct_answer": ["AWS DMS"],
+      "answer": []
+    },
+    {
+      "description": "O que é uma VPC?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Um serviço de banco de dados",
+        "Um espaço isolado de rede virtual",
+        "Um tipo de instância",
+        "Um serviço de contêiner"
+      ],
+      "correct_answer": ["Um espaço isolado de rede virtual"],
+      "answer": []
+    },
+    {
+      "description": "Qual componente de VPC controla acesso a instâncias específicas?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Sub-rede", "ACL de rede", "Grupo de segurança", "Peering"],
+      "correct_answer": ["Grupo de segurança"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço permite nomear e resolver domínios na AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon EC2", "Amazon Route 53", "AWS Lambda", "Amazon S3"],
+      "correct_answer": ["Amazon Route 53"],
+      "answer": []
+    },
+    {
+      "description": "Qual é uma opção de conectividade dedicada entre seu data center e AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS VPN", "AWS Direct Connect", "VPC Peering", "CloudFront"],
+      "correct_answer": ["AWS Direct Connect"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço armazena objetos na AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon EFS", "Amazon S3", "Amazon EBS", "Amazon RDS"],
+      "correct_answer": ["Amazon S3"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta inspeciona segurança dentro da VPC?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS Inspector", "AWS Config", "CloudTrail", "IAM Analyzer"],
+      "correct_answer": ["AWS Inspector"],
+      "answer": []
+    },
+    {
+      "description": "Qual é uma storage class de menor custo, ideal para arquivos pouco acessados?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "S3 Standard",
+        "S3 One Zone IA",
+        "S3 Glacier",
+        "S3 Frequent Access"
+      ],
+      "correct_answer": ["S3 Glacier"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço fornece armazenamento em bloco para EC2?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon S3", "Amazon RDS", "Amazon EBS", "AWS Lambda"],
+      "correct_answer": ["Amazon EBS"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço oferece sistema de arquivos escalável e compartilhado?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon S3", "Amazon EBS", "Amazon EFS", "AWS Glue"],
+      "correct_answer": ["Amazon EFS"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço integra armazenamento local com a nuvem AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "AWS CloudFormation",
+        "AWS Storage Gateway",
+        "AWS Lambda",
+        "AWS Backup"
+      ],
+      "correct_answer": ["AWS Storage Gateway"],
+      "answer": []
+    },
+    {
+      "description": "Para que servem políticas de ciclo de vida no Amazon S3?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Gerenciar instâncias EC2",
+        "Automatizar movimentação de dados entre classes de armazenamento",
+        "Aumentar performance",
+        "Reduzir tamanho de objetos"
+      ],
+      "correct_answer": [
+        "Automatizar movimentação de dados entre classes de armazenamento"
+      ],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço permite treinar e implantar modelos de machine learning?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon Lex",
+        "Amazon Kendra",
+        "Amazon SageMaker",
+        "AWS Lambda"
+      ],
+      "correct_answer": ["Amazon SageMaker"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço pode criar chatbots com NLP?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "AWS X-Ray",
+        "Amazon Lex",
+        "Amazon Kendra",
+        "Amazon SageMaker"
+      ],
+      "correct_answer": ["Amazon Lex"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta permite consulta direta em dados S3 com SQL?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon Athena",
+        "Amazon Redshift",
+        "Amazon EBS",
+        "Amazon Kinesis"
+      ],
+      "correct_answer": ["Amazon Athena"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço analisa fluxos de dados em tempo real?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS Glue", "Amazon Kinesis", "Amazon RDS", "AWS Forecast"],
+      "correct_answer": ["Amazon Kinesis"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço envia mensagens em fila?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon SNS", "Amazon SQS", "Amazon KMS", "Amazon DMS"],
+      "correct_answer": ["Amazon SQS"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço envia notificações em tempo real?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["Amazon SQS", "AWS Glue", "Amazon SNS", "Amazon DMS"],
+      "correct_answer": ["Amazon SNS"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço oferece central de atendimento baseada em nuvem?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon Lex",
+        "Amazon Connect",
+        "WS WorkSpaces",
+        "Amazon Chime"
+      ],
+      "correct_answer": ["Amazon Connect"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta CI/CD compila o código-fonte?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "AWS CodePipeline",
+        "AWS CodeBuild",
+        "AWS X-Ray",
+        "AWS Commit"
+      ],
+      "correct_answer": ["AWS CodeBuild"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço ajuda a depurar aplicações distribuídas?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS Lambda", "AWS CloudTrail", "AWS X-Ray", "Amazon Athena"],
+      "correct_answer": ["AWS X-Ray"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço permite executar VMs remotamente para usuários finais?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon WorkSpaces",
+        "Amazon S3",
+        "Amazon Redshift",
+        "AWS AppSync"
+      ],
+      "correct_answer": ["Amazon WorkSpaces"],
+      "answer": []
+    },
+    {
+      "description": "Qual ferramenta permite criar apps web/mobile com backend gerenciado?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": ["AWS Lambda", "AWS Amplify", "Amazon EC2", "Amazon Lex"],
+      "correct_answer": ["AWS Amplify"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço permite comunicação em tempo real com dispositivos IoT?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "Amazon SNS",
+        "AWS IoT Core",
+        "AWS IoT Management",
+        "AWS IoT Service"
+      ],
+      "correct_answer": ["AWS IoT Core"],
+      "answer": []
+    },
+    {
+      "description": "Qual serviço permite sincronização de dados entre dispositivos e AWS?",
+      "category": "Tecnologia e serviços da nuvem",
+      "type": "radio",
+      "options": [
+        "AWS Storage Gateway",
+        "AWS AppSync",
+        "AWS IoT Core",
+        "AWS DataSync"
+      ],
+      "correct_answer": ["AWS DataSync"],
+      "answer": []
+    }
+  ]
+}

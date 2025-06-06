@@ -1,0 +1,134 @@
+%flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container,
+.container-fluid {
+	width: 100%;
+
+	margin: {
+		right: auto;
+		left: auto;
+	}
+
+	padding: {
+		right: 1.25rem;
+		left: 1.25rem;
+	}
+}
+
+.row {
+	@extend %flex;
+
+	margin: {
+		right: -1.25rem;
+		left: -1.25rem;
+	}
+}
+
+@for $i from 1 through 12 {
+	.col-md-#{$i} {
+		position: relative;
+		width: 100%;
+		padding: {
+			right: 1.25rem;
+			left: 1.25rem;
+		}
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+
+	@each $cont,
+		$porcent
+			in (
+				1: 8.333333%,
+				2: 16.666667%,
+				3: 25%,
+				4: 33.333333%,
+				5: 41.666667%,
+				6: 50%,
+				7: 58.333333%,
+				8: 66.666667%,
+				9: 75%,
+				10: 83.333333%,
+				11: 91.666667%,
+				12: 100%
+			)
+	{
+		.col-md-#{$cont} {
+			max-width: $porcent;
+		}
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.container {
+		max-width: 940px;
+	}
+
+	@each $cont,
+		$porcent
+			in (
+				1: 8.333333%,
+				2: 16.666667%,
+				3: 25%,
+				4: 33.333333%,
+				5: 41.666667%,
+				6: 50%,
+				7: 58.333333%,
+				8: 66.666667%,
+				9: 75%,
+				10: 83.333333%,
+				11: 91.666667%,
+				12: 100%
+			)
+	{
+		.col-lg-#{$cont} {
+			max-width: $porcent;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 992px;
+	}
+	.container-fluid {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	@each $cont,
+		$porcent
+			in (
+				1: 8.333333%,
+				2: 16.666667%,
+				3: 25%,
+				4: 33.333333%,
+				5: 41.666667%,
+				6: 50%,
+				7: 58.333333%,
+				8: 66.666667%,
+				9: 75%,
+				10: 83.333333%,
+				11: 91.666667%,
+				12: 100%
+			)
+	{
+		.col-sm-#{$cont} {
+			max-width: $porcent;
+		}
+	}
+}
